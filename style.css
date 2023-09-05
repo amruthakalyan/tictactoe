@@ -5,8 +5,8 @@
 }
 
 nav{
-    background-color: rgb(37, 9, 37);
-    color: white;
+    background-color: rgb(77, 236, 3);
+    color: #0e0d0d;
     height: 65px;
     font-size: 27px;
     display: flex;
@@ -30,7 +30,7 @@ nav ul{
     grid-template-rows: repeat(3, 10vw);
     grid-template-columns: repeat(3, 10vw);
     font-family: 'Roboto', sans-serif;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     position: relative;
 }
 
@@ -97,7 +97,7 @@ nav ul{
     height: 3px;
     width: 0;
     position: absolute;
-    background-color: #911d91;
+    background-color: #17ee38;
     transition: width 1s ease-in-out;
 }
 
